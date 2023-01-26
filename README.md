@@ -1,10 +1,13 @@
-## Treasure Island
+# Warrior Landscape
 
-# Instructions
+## Summary
 
-Make your own "Choose Your Own Adventure" game. Use conditionals such as `if`, `else`, and `elif` statements to lay out the logic and the story's path in your program. 
+I made an 'Warrior Land Journey' story of my own using if, elif and else statements. The warrior character gets to make choices from some general options. 
+I based the story on the story of the Walls of Jericho in the Bible. 
+Enjoy! 
 
-[To write your code according to my story, you can use this flow chart from draw.io to help you.](https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload)
+### Flow chart
+[To write your code according to my story, you can use this flow chart from draw.io to help you.](I had to skip out on a flow chart, because the logic is really much. I just kept thinking of a scenario. Maybe another time)
 
 However, I think the fun part is writing your *own* story 😊
 
@@ -12,29 +15,26 @@ However, I think the fun part is writing your *own* story 😊
 
 That said if you'd like to continue with my example, feel free to use the text snippets below...
 
-### Text Snippets from my example
+### Meanwhile...
+I want to code a story based on any of the Isekai Mangas, or manhwas I've read. I'm thinking TBATE🧙‍♂️  and Solo Leveling🙀
 
-* 'You\'re at a crossroad. Where do you want to go? Type "left" or "right"'
-* 'You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.'
-* "You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?"
-* "It\'s a room full of fire. Game Over."
-* "You found the treasure! You Win!"
-* "You enter a room of beasts. Game Over."
-* "You chose a door that doesn\'t exist. Game Over."
-* "You get attacked by an angry trout. Game Over."
-* "You fell into a hole. Game Over."
+#### Alternative Story Idea: City of Troy
 
-# Escaping Characters
+I want to also try making another story based on the City of Troy and the characters in the City. I want to use the user's personality to choose the characters in the Troy story:
 
-If you want to use multiple sets of quotes inside a single string, you might have to "escape" some of them using the backslash `\`. You can see this in my first sentence: 'You\'re at a crossroad...'. [More on escaping characters here.](https://www.w3schools.com/python/gloss_python_escape_characters.asp)
+* 'Are you generally a flirt or someone carried away by pretty things -- You are like Amnon, Paris'
 
-# Extensions
+* 'Are you by default, a damsel in distress --- Yes? Then, you are Helen'
+
+* 'Are you a brave female? -- Here comes trouble from the  Women of Troy; you are Hecuba, then'
+
+* 'Odysseus'
+
+* 'Achaen' and so on... (from ***The Trojan Horse*** and the ***Women of Troy***)
+
+
+##### Extensions
 
 Have a think about how you might write your program to make a player's answers less case-sensitive. In other words, your code should work regardless of whether your user answers "left" or "Left".
 
-[You can also add your own ASCII art](https://ascii.co.uk/art). Just remember to add three single quotes `'''` at the start and at the end of your artwork to turn it into a multi-line string. 
-
-
-# Solution
-
-[https://replit.com/@appbrewery/treasure-island-end#main.py](https://replit.com/@appbrewery/treasure-island-end)
+[You can also add your own ASCII art](https://ascii.co.uk/art). Just remember to add three single quotes `'''` at the start and at the end of your artwork to turn it into a multi-line string.
