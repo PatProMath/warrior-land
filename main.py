@@ -41,13 +41,13 @@ print('''
                                        
 ''')
 print("Welcome to Warrior Land.")
-print("This is not a journey for the faint-hearted. You will be tried on your strength, faith and loyalty. Do you still wish to engage? Choose any of the 3 options below.")
+print("This is not a journey for the faint-hearted. You will be tried on your strength, faith and loyalty. Do you still wish to engage? Choose option 1, 2 or 3 below.")
 
-destination = int(input("1 Yes, I\'ll ride on the storm!\n2 I may need to build more faith.\n3 No. I am not made for such.\n  "))
+destination = int(input("1 Yes, I\'ll ride on the storm! \n2 I may need to build more faith. \n3 No. I am not made for such. \n  "))
 
 if destination == 1:
-  yes = input("Welcome to the Land of Jericho. Yet, it is hardly a welcome as men are at war. Do you wish to still go on? Yes or No\n  ")
-  if yes == "Yes":
+  yes = input("Welcome to the Land of Jericho. Yet, it is hardly a welcome as men are at war. Do you wish to still go on? Yes or No\n  ").lower()
+  if yes == "yes":
     print("As you wish. Report to the commanding officer.")
     next_step = int(input("On your way, you find an injured friend. 1 Stop or\n                                         2 Go on\n  "))
     if next_step == 2:
@@ -62,7 +62,7 @@ if destination == 1:
           next_step = int(input("What do you answer? 1 'Sure, sounds reasonable' \n2 'I am not sure what to do.' \n3 'He gave a command. Shall I kill you now for insubordination? Is your life or wit more pertinent than our mandate?'\n"))
           if next_step == 3:
             print("Your rebuke works and the other soldier regains his senses. You both continue the mission and blow the trumpets. The sound of the trumpets wakes the enemy and they aim arrows at you.")
-            next_step = input("What is the state of your heart now? strong or small? \n")
+            next_step = input("What is the state of your heart now? strong or small? \n").lower()
             if next_step == "strong":
               print("No sooner than the arrows are notched, the walls of the city sink. The archers die from the collapse. Your commander leads the army to victory and he rewards you for good service. Well done, you are crowned!")
             else: 
@@ -78,8 +78,8 @@ if destination == 1:
     destination = 2
 elif destination == 2:
   print("Welcome to Fighting School. We form warriors here.")
-  next_step = input("Are you ready to learn? Yes or No\n  ")
-  if next_step == 'Yes':
+  next_step = input("Are you ready to learn? Yes or No\n  ").lower()
+  if next_step == 'yes':
     print("Your first task is to build up faith! You can start at the 11th regiment in the Hebrews camp. Make sure to submit to the instructor first. He will give pointers! Remember submission is key.")
   else:
     print("What shall we then do for thee, oh goat?")
