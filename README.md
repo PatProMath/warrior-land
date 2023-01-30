@@ -9,7 +9,7 @@ Enjoy!
 ### Flow chart
 [To write your code according to my story, you can use this flow chart from draw.io to help you.](I had to skip out on a flow chart, because the logic is really much. I just kept thinking of a scenario. Maybe another time)
 
-However, I think the fun part is writing your *own* story 😊
+I think the fun part was supposed to be writing my *own* story. But I went overboard again. Well, do what suits you! 😊
 
 🧞‍♂️ 🐊 🧙‍♂️ 🧟 🧚‍♂️ 🧝‍♂️ 🥷 🤖 👽 🙀 
 
